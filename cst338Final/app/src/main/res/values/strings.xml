@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Grocery List</string>
+    <string name="logo">logo</string>
+    <string name="add_to_list">Add to list</string>
+    <string name="cookies">Cookies</string>
+    <string name="soda">Soda</string>
+    <string name="candy">Candy</string>
+    <string name="juice">Juice</string>
+    <string name="cake">Cake</string>
+    <string name="fruits">Fruits</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="bread">Bread</string>
+    <string name="cereal">Cereal</string>
+    <string name="pizza">Pizza</string>
+    <string name="chips">Chips</string>
+    <string name="List"> Groceries item(s):  </string>
+    <string name="ice_cream">Ice Cream</string>
+    <string name="grocery_items">Grocery items</string>
+
+</resources>

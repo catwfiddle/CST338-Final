@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAD8EC"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/groceries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#3F51B5"
+        android:text="@string/grocery_items"
+        android:textColor="#3F51B5" />
+
+    <CheckBox
+        android:id="@+id/cookies"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/cookies"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/chips"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/chips"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/soda"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/soda"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/candy"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/candy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/juice"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/juice"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/cake"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/cake"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/fruits"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/fruits"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/vegetables"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/vegetables"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/bread"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/bread"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/cereal"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/cereal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/pizza"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:onClick="processClicks"
+        android:text="@string/pizza"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/iceCream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="processClicks"
+        android:text="@string/ice_cream"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="processClicks"
+        android:text="@string/add_to_list"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textColorHint="#ABD1EE"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/groceryList"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:onClick="processClicks"
+        android:text="@string/List"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0D154B"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+</LinearLayout>
